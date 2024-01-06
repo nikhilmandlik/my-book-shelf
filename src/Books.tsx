@@ -12,7 +12,6 @@ function Books() {
 
   async function addBook(e) {
     e.preventDefault();
-    console.log('addBook', bookName);
 
     const bookInfo = {
       name: bookName,
@@ -27,7 +26,7 @@ function Books() {
     const fileContent = {
       books: books.concat([bookInfo])
     };
-    var form = new FormData();
+    const form = new FormData();
     form.append('metadata', new Blob([JSON.stringify(metadata)], { type: 'application/json' }));
     form.append('file', new Blob([JSON.stringify(fileContent)], {type: "application/json"}));
     const data = await fetch(`https://www.googleapis.com/upload/drive/v3/files/${fileId}?uploadType=multipart`, {

@@ -7,7 +7,7 @@ function filterBookShelfFile(data) {
         return [];
     }
 
-    console.log('files', files);
+    // console.log('files', files);
 
     return files.find(file => {
         const nameMatch = file.name === process.env.MY_BOOK_SHELF_FILE_NAME;
@@ -16,20 +16,20 @@ function filterBookShelfFile(data) {
     });
 }
 
-async function deletefile(currentUserinfo: Userinfo, bookFile: any) {
-    if (!bookFile) {
-        return;
-    }
+// async function deletefile(currentUserinfo: Userinfo, bookFile: any) {
+//     if (!bookFile) {
+//         return;
+//     }
 
-    const value = await fetch(`https://www.googleapis.com/drive/v3/files/${bookFile.id}`, {
-        method: 'DELETE',
-        headers: {
-            Authorization: `Bearer ${currentUserinfo.access_token}`,
-        },
-    }).then(res => res.json());
+//     const value = await fetch(`https://www.googleapis.com/drive/v3/files/${bookFile.id}`, {
+//         method: 'DELETE',
+//         headers: {
+//             Authorization: `Bearer ${currentUserinfo.access_token}`,
+//         },
+//     }).then(res => res.json());
 
-    console.log('value', value);
-}
+//     console.log('value', value);
+// }
 
 async function createfile(currentUserinfo: Userinfo) {
     const metadata = {
@@ -65,25 +65,37 @@ function useBooks() {
 
     useEffect(() => {
         (async function() {
-            const bookFile = await fetch(`https://www.googleapis.com/drive/v3/files?alt=json&access_token=${currentUserinfo.access_token}`)
+            let bookFile;
+            try {
+                bookFile = await fetch(`https://www.googleapis.com/drive/v3/files?alt=json&access_token=${currentUserinfo.access_token}`)
                 .then(res => res.json())
                 .then(filterBookShelfFile);
+            } catch(e) {
+                setError(e);
+            }
+
             // deletefile(currentUserinfo, bookFile);
+
             if (!bookFile) {
                 console.error('no file found, creating file on google drive');
                 await createfile(currentUserinfo);
                 setFileId(undefined);
             } else {
-                const booksData = await fetch(`https://www.googleapis.com/drive/v3/files/${bookFile.id}?alt=media`,
-                {
-                    headers: {
-                        Authorization: `Bearer ${currentUserinfo.access_token}`,
+                let booksData;
+
+                try {
+                    booksData = await fetch(`https://www.googleapis.com/drive/v3/files/${bookFile.id}?alt=media`,
+                    {
+                        headers: {
+                            Authorization: `Bearer ${currentUserinfo.access_token}`,
+                        }
                     }
+                    ).then(res => res.json());
+                    setbooks(booksData.books);
+                    setFileId(bookFile.id);
+                } catch(e) {
+                    setError(e);
                 }
-                ).then(res => res.json());
-                console.log(booksData);
-                setbooks(booksData.books);
-                setFileId(bookFile.id);
             }
             setLoading(false);
         })();
