@@ -1,19 +1,21 @@
 import { googleLogout } from '@react-oauth/google';
 import { userContext } from './UserContextProvider';
-import { useContext } from "react";
-import { useNavigate } from "react-router-dom";
+import { useContext } from 'react';
+import { Button } from 'react-bootstrap';
 
 function Logout() {
-    const userData = useContext(userContext);
-    const navigate = useNavigate();
+  const userData = useContext(userContext);
 
-    function handleLogout() {
-        googleLogout();
-        userData.setCurrentUserinfo(undefined);
-        navigate("/");
-    }
+  function handleLogout() {
+    googleLogout();
+    userData.setCurrentUserinfo(undefined);
+  }
 
-    return <button onClick={handleLogout}>Logout</button>;
+  return (
+    <Button className="col-12" onClick={handleLogout}>
+      Logout
+    </Button>
+  );
 }
 
 export default Logout;

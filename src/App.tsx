@@ -1,8 +1,9 @@
 import { useContext } from 'react';
-import './App.css';
 import Login from './Login';
 import { userContext } from './UserContextProvider';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import '../node_modules/@popperjs/core/dist/umd/popper.min.js';
 
 import Home from './Home';
 import AppLayout from './AppLayout';
@@ -20,11 +21,11 @@ function App() {
             <Route path="/books" element={<Books />} />
           </Route>
         </Routes>
-      ) : <Login />}
-
-
+      ) : (
+        <Login />
+      )}
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
