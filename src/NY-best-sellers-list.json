@@ -1,0 +1,472 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2024 The New York Times Company.  All Rights Reserved.",
+    "num_results": 10,
+    "last_modified": "2024-01-04T00:00:10-05:00",
+    "results": [
+      {
+        "list_name": "Business Books",
+        "display_name": "Business",
+        "bestsellers_date": "2023-12-30",
+        "published_date": "2024-01-14",
+        "rank": 1,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 1,
+        "amazon_product_url": "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299?tag=NYTBSREV-20",
+        "isbns": [
+          {
+            "isbn10": "0735211299",
+            "isbn13": "9780735211292"
+          },
+          {
+            "isbn10": "0735211302",
+            "isbn13": "9780735211308"
+          },
+          {
+            "isbn10": "1847941834",
+            "isbn13": "9781847941831"
+          },
+          {
+            "isbn10": "0593207092",
+            "isbn13": "9780593207093"
+          },
+          {
+            "isbn10": "1804225789",
+            "isbn13": "9781804225783"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "ATOMIC HABITS",
+            "description": "",
+            "contributor": "by James Clear",
+            "author": "James Clear",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Avery",
+            "primary_isbn13": "9780735211292",
+            "primary_isbn10": "0735211299"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Business Books",
+        "display_name": "Business",
+        "bestsellers_date": "2023-12-30",
+        "published_date": "2024-01-14",
+        "rank": 2,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/0593652886?tag=NYTBSREV-20",
+        "isbns": [
+          {
+            "isbn10": "0593652886",
+            "isbn13": "9780593652886"
+          },
+          {
+            "isbn10": "0593653424",
+            "isbn13": "9780593653425"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "THE CREATIVE ACT",
+            "description": "",
+            "contributor": "by Rick Rubin with Neil Strauss",
+            "author": "Rick Rubin with Neil Strauss",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Penguin Press",
+            "primary_isbn13": "9780593652886",
+            "primary_isbn10": "0593652886"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Business Books",
+        "display_name": "Business",
+        "bestsellers_date": "2023-12-30",
+        "published_date": "2024-01-14",
+        "rank": 3,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/1982181281?tag=NYTBSREV-20",
+        "isbns": [
+          {
+            "isbn10": "1982181281",
+            "isbn13": "9781982181284"
+          },
+          {
+            "isbn10": "1982181303",
+            "isbn13": "9781982181307"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "ELON MUSK",
+            "description": "The author of “The Code Breaker” traces Musk’s life and summarizes his work on electric vehicles, private space exploration and artificial intelligence. Read by Jeremy Bobb. 20 hours, 27 minutes unabridged.",
+            "contributor": "by Walter Isaacson",
+            "author": "Walter Isaacson",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Simon & Schuster",
+            "primary_isbn13": "9781982181284",
+            "primary_isbn10": "1982181281"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Business Books",
+        "display_name": "Business",
+        "bestsellers_date": "2023-12-30",
+        "published_date": "2024-01-14",
+        "rank": 4,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/0593653149?tag=NYTBSREV-20",
+        "isbns": [
+          {
+            "isbn10": "0593653149",
+            "isbn13": "9780593653142"
+          },
+          {
+            "isbn10": "0593653157",
+            "isbn13": "9780593653159"
+          },
+          {
+            "isbn10": "0593676734",
+            "isbn13": "9780593676738"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "HIDDEN POTENTIAL",
+            "description": "",
+            "contributor": "by Adam Grant",
+            "author": "Adam Grant",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Viking",
+            "primary_isbn13": "9780593653142",
+            "primary_isbn10": "0593653149"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Business Books",
+        "display_name": "Business",
+        "bestsellers_date": "2023-12-30",
+        "published_date": "2024-01-14",
+        "rank": 5,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/0593545400?tag=NYTBSREV-20",
+        "isbns": [
+          {
+            "isbn10": "0593545400",
+            "isbn13": "9780593545409"
+          },
+          {
+            "isbn10": "0593545419",
+            "isbn13": "9780593545416"
+          },
+          {
+            "isbn10": "0593792998",
+            "isbn13": "9780593792995"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "BUILD THE LIFE YOU WANT",
+            "description": "",
+            "contributor": "by Arthur C. Brooks and Oprah Winfrey",
+            "author": "Arthur C. Brooks and Oprah Winfrey",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Portfolio",
+            "primary_isbn13": "9780593545409",
+            "primary_isbn10": "0593545400"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Business Books",
+        "display_name": "Business",
+        "bestsellers_date": "2023-12-30",
+        "published_date": "2024-01-14",
+        "rank": 6,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/0593655958?tag=NYTBSREV-20",
+        "isbns": [
+          {
+            "isbn10": "0593655958",
+            "isbn13": "9780593655955"
+          },
+          {
+            "isbn10": "0593655966",
+            "isbn13": "9780593655962"
+          },
+          {
+            "isbn10": "059379298X",
+            "isbn13": "9780593792988"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "BE USEFUL",
+            "description": "",
+            "contributor": "by Arnold Schwarzenegger",
+            "author": "Arnold Schwarzenegger",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Penguin Press",
+            "primary_isbn13": "9780593655955",
+            "primary_isbn10": "0593655958"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Business Books",
+        "display_name": "Business",
+        "bestsellers_date": "2023-12-30",
+        "published_date": "2024-01-14",
+        "rank": 7,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/1324074337?tag=NYTBSREV-20",
+        "isbns": [
+          {
+            "isbn10": "1324074337",
+            "isbn13": "9781324074335"
+          },
+          {
+            "isbn10": "1324074345",
+            "isbn13": "9781324074342"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "GOING INFINITE",
+            "description": "The author of “The Big Short” and “The Premonition” chronicles the rise and fall of Sam Bankman-Fried and FTX.",
+            "contributor": "by Michael Lewis",
+            "author": "Michael Lewis",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Norton",
+            "primary_isbn13": "9781324074335",
+            "primary_isbn10": "1324074337"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Business Books",
+        "display_name": "Business",
+        "bestsellers_date": "2023-12-30",
+        "published_date": "2024-01-14",
+        "rank": 8,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/Will-Teach-You-Rich-Second-ebook/dp/B07GNXPP4P?tag=NYTBSREV-20",
+        "isbns": [
+          {
+            "isbn10": "152350787X",
+            "isbn13": "9781523507870"
+          },
+          {
+            "isbn10": "1523505745",
+            "isbn13": "9781523505746"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "I WILL TEACH YOU TO BE RICH, SECOND EDITION",
+            "description": "",
+            "contributor": "by Ramit Sethi",
+            "author": "Ramit Sethi",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Workman",
+            "primary_isbn13": "9781523505746",
+            "primary_isbn10": "1523505745"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Business Books",
+        "display_name": "Business",
+        "bestsellers_date": "2023-12-30",
+        "published_date": "2024-01-14",
+        "rank": 9,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 0,
+        "amazon_product_url": "https://www.amazon.com/dp/1982169907?tag=NYTBSREV-20",
+        "isbns": [
+          {
+            "isbn10": "1982169907",
+            "isbn13": "9781982169909"
+          },
+          {
+            "isbn10": "1982169923",
+            "isbn13": "9781982169923"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "THE MYSTERIOUS CASE OF RUDOLF DIESEL",
+            "description": "An account of the disappearance in September 1913 of the man who invented the internal combustion engine.",
+            "contributor": "by Douglas Brunt",
+            "author": "Douglas Brunt",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Atria",
+            "primary_isbn13": "9781982169909",
+            "primary_isbn10": "1982169907"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      },
+      {
+        "list_name": "Business Books",
+        "display_name": "Business",
+        "bestsellers_date": "2023-12-30",
+        "published_date": "2024-01-14",
+        "rank": 10,
+        "rank_last_week": 0,
+        "weeks_on_list": 0,
+        "asterisk": 0,
+        "dagger": 1,
+        "amazon_product_url": "https://www.amazon.com/dp/0593714911?tag=NYTBSREV-20",
+        "isbns": [
+          {
+            "isbn10": "0593714911",
+            "isbn13": "9780593714911"
+          },
+          {
+            "isbn10": "059371492X",
+            "isbn13": "9780593714928"
+          }
+        ],
+        "book_details": [
+          {
+            "title": "RICH AF",
+            "description": "",
+            "contributor": "by Vivian Tu",
+            "author": "Vivian Tu",
+            "contributor_note": "",
+            "price": "0.00",
+            "age_group": "",
+            "publisher": "Portfolio",
+            "primary_isbn13": "9780593714911",
+            "primary_isbn10": "0593714911"
+          }
+        ],
+        "reviews": [
+          {
+            "book_review_link": "",
+            "first_chapter_link": "",
+            "sunday_review_link": "",
+            "article_chapter_link": ""
+          }
+        ]
+      }
+    ]
+  }

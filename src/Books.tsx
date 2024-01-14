@@ -73,19 +73,21 @@ function Books() {
   }
 
   return (
-    <Container fluid>
+    <Container fluid className="py-4 my-4 border border-2 rounded-3">
       {loading ? (
-        <Container className="text-center m-4">
+        <Container className="text-center">
           <h1 className="mb-4">Loading your books ...</h1>
           <Spinner animation="border" role="status" className="">
             <span className="visually-hidden">Loading...</span>
           </Spinner>
         </Container>
       ) : (
-        <Container fluid className="py-4 my-4 border border-2 rounded-3">
+        <>
           <div className="d-flex justify-content-between">
             <h1 className="">Your Books</h1>
-            <Button>Add new Book</Button>
+            <Link to="/books/create">
+              <Button>Add new Book</Button>
+            </Link>
           </div>
           <hr></hr>
           {books.map((book) => {
@@ -96,7 +98,7 @@ function Books() {
             <input onBlur={(e) => setBookName(e.target.value)} />
             <button onClick={addBook}>Add book</button>
           </div>
-        </Container>
+        </>
       )}
     </Container>
   );
