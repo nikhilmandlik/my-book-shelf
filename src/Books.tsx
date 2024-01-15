@@ -91,7 +91,7 @@ function Books() {
           </div>
           <hr></hr>
           {books.map((book) => {
-            return <h1>{book.name}</h1>;
+            return <h1 key={book.id}>{book.title}</h1>;
           })}
           <div>
             <label>Name</label>

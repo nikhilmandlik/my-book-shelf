@@ -1,6 +1,27 @@
 import { useContext, useEffect, useState } from 'react';
 import { Userinfo, userContext } from './UserContextProvider';
+interface Highlights {
+  pageNumber: string;
+  pageText: string;
+}
 
+interface Summary {
+  oneLiner: string;
+  threeLiner: string;
+  detailed: string;
+}
+
+interface Book {
+  id: string;
+  title: string;
+  description: string;
+  start_date: Date;
+  end_date: Date;
+  image_url: string;
+  amazon_product_url: string;
+  summary: Summary;
+  highlights: Highlights[];
+}
 function filterBookShelfFile(data) {
   const files = data.files;
   if (!files) {
@@ -40,7 +61,7 @@ async function createfile(currentUserinfo: Userinfo) {
   const fileContent = {
     books: [],
   };
-  var form = new FormData();
+  const form = new FormData();
   form.append(
     'metadata',
     new Blob([JSON.stringify(metadata)], { type: 'application/json' })
@@ -65,7 +86,7 @@ async function createfile(currentUserinfo: Userinfo) {
 }
 
 function useBooks() {
-  const [books, setbooks] = useState([]);
+  const [books, setbooks] = useState<Book[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [fileId, setFileId] = useState(undefined);
@@ -124,3 +145,4 @@ function useBooks() {
 }
 
 export default useBooks;
+export type { Book };

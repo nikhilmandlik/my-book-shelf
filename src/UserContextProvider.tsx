@@ -19,7 +19,7 @@ interface Userinfo {
   access_token: string;
 }
 
-let userContext = createContext({
+const userContext = createContext({
   currentUserinfo: undefined,
   setCurrentUserinfo: null,
 });

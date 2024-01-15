@@ -1,35 +1,12 @@
-import { useState } from 'react';
-import {
-  useForm,
-  SubmitHandler,
-  useFieldArray,
-  FieldArrayWithId,
-} from 'react-hook-form';
+import { useForm, useFieldArray, FieldArrayWithId } from 'react-hook-form';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap';
-
-interface Highlights {
-  pageNumber: string;
-  pageText: string;
-}
-
-interface Summary {
-  oneLiner: string;
-  threeLiner: string;
-  detailed: string;
-}
-export interface BookFormProps {
-  title: string;
-  description: string;
-  start_date: string;
-  end_date: string;
-  image_url: string;
-  amazon_product_url: string;
-  summary: Summary;
-  highlights: Highlights[];
-}
+import { useEffect } from 'react';
+import { Book } from './useBooks';
+import { v4 as uuid } from 'uuid';
+import useAddBook from './useAddBook';
 
 interface HighlightsProps {
-  field: FieldArrayWithId<BookFormProps, 'highlights', 'id'>;
+  field: FieldArrayWithId<Book, 'highlights', 'id'>;
   index: number;
 }
 
@@ -38,19 +15,34 @@ const defaultHighlightRow = {
   pageText: '',
 };
 
-function BookForm(props: BookFormProps) {
-  const { control, register, handleSubmit } = useForm({
+interface BookFormProps {
+  bookProps?: Book;
+  isUpdateBook?: boolean;
+}
+
+function BookForm({ bookProps, isUpdateBook = false }: BookFormProps) {
+  const { error, loading, addBook, updateBook } = useAddBook();
+  const { control, register, handleSubmit, reset } = useForm({
     mode: 'onTouched',
     reValidateMode: 'onSubmit',
-    defaultValues: props,
+    defaultValues: bookProps,
   });
   const { fields, append, remove } = useFieldArray({
     control,
     name: 'highlights',
   });
+  const submitButtonText = isUpdateBook ? 'Update' : 'Submit';
 
-  function addBook(data) {
-    console.log('addbook', data);
+  function addBookInfo(data) {
+    console.log(data);
+    if (isUpdateBook) {
+      updateBook(data);
+    } else {
+      addBook({
+        id: uuid(),
+        ...data,
+      });
+    }
   }
 
   function HighlightRow(highlightsProps: HighlightsProps) {
@@ -67,16 +59,16 @@ function BookForm(props: BookFormProps) {
               <Form.Control
                 type="text"
                 placeholder="Page number"
-                {...(register(`highlights.${index}.pageNumber`),
-                { required: true })}
+                {...register(`highlights.${index}.pageNumber`, {
+                  required: true,
+                })}
               />
             </div>
             <Form.Control
               as="textarea"
               rows={2}
               placeholder="Enter highlight text here"
-              {...(register(`highlights.${index}.pageText`),
-              { required: true })}
+              {...register(`highlights.${index}.pageText`, { required: true })}
             />
           </div>
           <Button onClick={() => remove(index)} id={field.id}>
@@ -98,13 +90,17 @@ function BookForm(props: BookFormProps) {
     );
   }
 
+  useEffect(() => {
+    reset(bookProps);
+  }, [bookProps, reset]);
+
   return (
     <Container fluid className="py-4 my-4 border border-2 rounded-3">
       <div className="mb-4 text-center">
         <h1 className="">Add a new book notes</h1>
       </div>
 
-      <Form onSubmit={handleSubmit(addBook)}>
+      <Form onSubmit={handleSubmit(addBookInfo)}>
         <Form.Group as={Row} className="mb-3" controlId="formTitle">
           <Form.Label column sm={2}>
             Title
@@ -113,7 +109,7 @@ function BookForm(props: BookFormProps) {
             <Form.Control
               type="text"
               placeholder="Book Title"
-              {...(register('title'), { required: true })}
+              {...register('title', { required: true })}
             />
           </Col>
         </Form.Group>
@@ -124,8 +120,9 @@ function BookForm(props: BookFormProps) {
           <Col sm={10}>
             <Form.Control
               as="textarea"
+              placeholder="add book description"
               rows={2}
-              {...(register('description'), { required: true })}
+              {...register('description', { required: true })}
             />
           </Col>
         </Form.Group>
@@ -134,10 +131,7 @@ function BookForm(props: BookFormProps) {
             Start date
           </Form.Label>
           <Col sm={10}>
-            <Form.Control
-              type="date"
-              {...(register('start_date'), { required: true })}
-            />
+            <Form.Control type="date" {...register('start_date')} />
           </Col>
         </Form.Group>
         <Form.Group as={Row} className="mb-3" controlId="formEndDate">
@@ -209,7 +203,7 @@ function BookForm(props: BookFormProps) {
 
         <h3 className="mb-3">Book Hightlights</h3>
         {fields.map((field, index) => (
-          <HighlightRow field={field} index={index} />
+          <HighlightRow key={field.id} field={field} index={index} />
         ))}
 
         <Row>
@@ -231,7 +225,7 @@ function BookForm(props: BookFormProps) {
         >
           <Col className="col-6 align-self-center">
             <Button className="w-100" type="submit">
-              Submit
+              {submitButtonText}
             </Button>
           </Col>
         </Form.Group>

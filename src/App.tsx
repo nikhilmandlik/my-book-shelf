@@ -20,18 +20,7 @@ function App() {
           <Route path="/" element={<AppLayout />}>
             <Route path="/" element={<Home />} />
             <Route path="/books" element={<Books />} />
-            <Route
-              path="/books/create"
-              element={
-                <BookForm
-                  name={''}
-                  description={''}
-                  refUrl={''}
-                  summary={undefined}
-                  highlights={[]}
-                />
-              }
-            />
+            <Route path="/books/create" element={<BookForm />} />
           </Route>
         </Routes>
       ) : (
