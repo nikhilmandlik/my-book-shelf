@@ -9,6 +9,7 @@ import '../node_modules/@popperjs/core/dist/umd/popper.min.js';
 import Home from './Home';
 import AppLayout from './AppLayout';
 import Books from './Books';
+import BookDetails from './BookDetails';
 
 function App() {
   const userData = useContext(userContext);
@@ -21,6 +22,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/books" element={<Books />} />
             <Route path="/books/create" element={<BookForm />} />
+            <Route path="/books/:bookId" element={<BookDetails />} />
           </Route>
         </Routes>
       ) : (

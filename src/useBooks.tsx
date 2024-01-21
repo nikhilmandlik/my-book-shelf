@@ -22,6 +22,7 @@ interface Book {
   summary: Summary;
   highlights: Highlights[];
 }
+
 function filterBookShelfFile(data) {
   const files = data.files;
   if (!files) {

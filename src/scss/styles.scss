@@ -4,3 +4,59 @@
 body {
     margin: 1rem;
 }
+
+.accordion-button:not(.collapsed) { 
+    background-color: #e3e3e3;
+}
+
+.book-thumbnail {
+    width: 100%;
+    padding: 20px;
+}
+
+.pre-wrap {
+    white-space: pre-wrap;
+}
+
+.book-cards {
+    display: grid;
+    row-gap: 1rem;
+    grid-template-rows: auto;
+}
+
+.book-card {
+    align-self: stretch;
+    justify-self: center;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 576px) {
+    .book-cards {
+        grid-template-columns: 1fr;
+    }
+    .book-card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .book-thumbnail {
+        max-width: 425px;
+    }
+
+    .book-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .book-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .book-cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

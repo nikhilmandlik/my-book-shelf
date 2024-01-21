@@ -9,11 +9,11 @@ function NavigationBar() {
     useContext(userContext);
 
   return (
-    <Container fluid>
+    <Container fluid className="px-0">
       <Navbar
         bg="dark"
         data-bs-theme="dark"
-        expand="md"
+        expand="sm"
         className="rounded-3 px-3"
       >
         <Navbar.Brand as={Link} to="/" className="flex-1">

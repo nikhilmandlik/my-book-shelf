@@ -47,13 +47,10 @@ function useAddBook() {
     error,
     loading,
     addBook: (bookInfo: Book) => {
-      console.log(bookInfo);
-
-      //   updateFileContents(fileId, accessToken, books.concat(bookInfo));
+      updateFileContents(fileId, accessToken, books.concat(bookInfo));
     },
     updateBook: (bookInfo: Book) => {
-      console.log(bookInfo);
-      //   updateFileContents(fileId, accessToken, updateBookInfo(books, bookInfo));
+      updateFileContents(fileId, accessToken, updateBookInfo(books, bookInfo));
     },
   };
 }

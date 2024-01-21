@@ -1,11 +1,11 @@
 {
     "books":[
         {
-            "id": "",
+            "id": "dc07be4f-cfad-4469-83b9-c59407cfb170",
             "title": "Traction: Get a Grip on Your Business",
             "description": "Do you have a grip on your business, or does your business have a grip on you. All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do. In Traction, you'll learn the secrets of strengthening the six key components of your business. You'll discover simple yet powerful ways to run your company that will give you and your leadership team more focus, more growth, and more enjoyment. Successful companies are applying Traction every day to run profitable, frustration-free businesses—and you can too.",
             "author": "Gino Wickman",
-            "image_url": "",
+            "image_url": "https://m.media-amazon.com/images/I/81oQ-C24hxL._SL1500_.jpg",
             "amazon_product_url": "https://www.amazon.com/gp/product/1936661837/ref=ox_sc_saved_title_3?smid=ATVPDKIKX0DER&psc=1",
             "summary": {
                 "1L": "good one",
@@ -25,6 +25,35 @@
                 },
                 {
                     "pageNumber": "1",
+                    "text": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
+                }
+            ]
+        },
+        {
+            "id": "66438a44-5d62-4e17-9c21-00592dfa6322",
+            "title": "The 10X Rule: The Only Difference Between Success and Failure",
+            "description": "While most people operate with only three degrees of action-no action, retreat, or normal action-if you're after big goals, you don't want to settle for the ordinary. To reach the next level, you must understand the coveted 4th degree of action. This 4th degree, also known as the 10 X Rule, is that level of action that guarantees companies and individuals realize their goals and dreams. The 10 X Rule unveils the principle of "Massive Action," allowing you to blast through business clichŽs and risk-aversion while taking concrete steps to reach your dreams. It also demonstrates why people get stuck in the first three actions and how to move into making the 10X Rule a discipline. Find out exactly where to start, what to do, and how to follow up each action you take with more action to achieve Massive Action results.",
+            "author": "Grant Cardone",
+            "image_url": "https://m.media-amazon.com/images/I/71hjq42hvGL._SL1500_.jpg",
+            "amazon_product_url": "https://www.amazon.com/gp/product/0470627603/ref=ewc_pr_img_1?smid=ATVPDKIKX0DER&psc=1",
+            "summary": {
+                "1L": "good one",
+                "3L": "good but can be better",
+                "detailed": "Do you have a grip on your business, or does your business have a grip on you. All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do. In Traction, you'll learn the secrets of strengthening the six key components of your business. You'll discover simple yet powerful ways to run your company that will give you and your leadership team more focus, more growth, and more enjoyment. Successful companies are applying Traction every day to run profitable, frustration-free businesses—and you can too."
+            },
+            "start_date":"2024-1-10",
+            "end_date":"2024-1-15",
+            "highlights": [
+                {
+                    "pageNumber": "150",
+                    "text": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
+                },
+                {
+                    "pageNumber": "160",
+                    "text": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
+                },
+                {
+                    "pageNumber": "190",
                     "text": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
                 }
             ]
