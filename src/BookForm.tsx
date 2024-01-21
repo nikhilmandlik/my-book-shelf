@@ -1,5 +1,5 @@
 import { useForm, useFieldArray, FieldArrayWithId } from 'react-hook-form';
-import { Button, Col, Container, Form, Row } from 'react-bootstrap';
+import { Button, Col, Container, Form, Row, Spinner } from 'react-bootstrap';
 import { useEffect } from 'react';
 import { Book } from './useBooks';
 import { v4 as uuid } from 'uuid';
@@ -93,6 +93,25 @@ function BookForm({ bookProps, isUpdateBook = false }: BookFormProps) {
   useEffect(() => {
     reset(bookProps);
   }, [bookProps, reset]);
+
+  if (loading) {
+    return (
+      <Container className="text-center">
+        <h1 className="mb-4">Loading your books ...</h1>
+        <Spinner animation="border" role="status" className="">
+          <span className="visually-hidden">Loading...</span>
+        </Spinner>
+      </Container>
+    );
+  }
+
+  if (error) {
+    return (
+      <Container className="text-center">
+        <h1 className="mb-4">Error: {error}</h1>
+      </Container>
+    );
+  }
 
   return (
     <Container fluid className="py-4 my-4 border border-2 rounded-3">

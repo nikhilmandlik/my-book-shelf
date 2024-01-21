@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Logout from './Logout';
-import { Button, Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
 import { useContext } from 'react';
 import { Userinfo, userContext } from './UserContextProvider';
 
@@ -16,10 +16,16 @@ function NavigationBar() {
         expand="sm"
         className="rounded-3 px-3"
       >
-        <Navbar.Brand as={Link} to="/" className="flex-1">
-          {currentUserinfo.name}'s Bookshelf
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbar-nav-toggle" />
+        <Row className="overflow-auto d-flex flex-nowrap justify-content-between flex-grow-1">
+          <Col xs={10}>
+            <Navbar.Brand as={Link} to="/" className="flex-1 text-wrap">
+              {currentUserinfo.name}'s Bookshelf
+            </Navbar.Brand>
+          </Col>
+          <Col xs={2}>
+            <Navbar.Toggle aria-controls="navbar-nav-toggle" />
+          </Col>
+        </Row>
         <Navbar.Collapse className="justify-content-end">
           <Nav>
             <Nav.Link as={Link} to="/">

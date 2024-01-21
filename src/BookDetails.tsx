@@ -1,5 +1,6 @@
 import {
   Accordion,
+  Button,
   Card,
   Col,
   Container,
@@ -16,6 +17,19 @@ function BookDetails() {
 
   return (
     <Container fluid className="mt-3">
+      <div className="pt-2 pb-4 d-flex justify-content-between">
+        <Card.Title>
+          <a href={book.amazon_product_url} target="_blank">
+            <h1>{book.title}</h1>
+          </a>
+        </Card.Title>
+        <div className="d-flex justify-content-end align-items-start">
+          <Button variant="secondary" className="me-3">
+            Edit
+          </Button>
+          <Button variant="danger">Delete</Button>
+        </div>
+      </div>
       <Row>
         <Col xs={12} sm={auto} className="p-0">
           <FigureImage
@@ -29,11 +43,6 @@ function BookDetails() {
         <Col>
           <Card className="border-0">
             <Card.Body className="p-0">
-              <Card.Title>
-                <a href={book.amazon_product_url} target="_blank">
-                  <h1>{book.title}</h1>
-                </a>
-              </Card.Title>
               <Card.Text className="pre-wrap">{book.description}</Card.Text>
             </Card.Body>
           </Card>
