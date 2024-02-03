@@ -1,62 +1,153 @@
 {
-    "books":[
+  "books": [
+    {
+      "id": "a02ee912-289f-4353-8dd5-180ba6511432",
+      "title": "The book on Rental property investing",
+      "description": "Real estate investing can provide a safe and fast path to financial freedom, and this business best seller will show you exactly how to get there. With nearly 400 pages of in-depth advice, The Book on Rental Property Investing imparts practical and exciting strategies that real estate investors across the world are using to build significant cash flow with rental properties.",
+      "author": "Brandon Turner",
+      "image_url": "https://m.media-amazon.com/images/W/MEDIAX_849526-T3/images/I/718pbhdD3XL._SL1500_.jpg",
+      "amazon_product_url": "https://www.amazon.com/Book-Rental-Property-Investing-Intelligent/dp/099071179X/ref=asc_df_099071179X/?tag=hyprod-20&linkCode=df0&hvadid=312006100296&hvpos=&hvnetw=g&hvrand=13191737573056650003&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032002&hvtargid=pla-435488767368&psc=1&mcid=cb1447703f633727937651d9ac0d5315&gclid=Cj0KCQiAwvKtBhDrARIsAJj-kTh_Q2QQlbrLclJYhwk7TtFhI_mZY1GtMfLXul_I8cWmZLEFk-tC-OMaAswhEALw_wcB",
+      "summary": {
+        "oneLiner": "Step by step guide to find, purchase and manage rental property",
+        "threeLiner": "This book gives you insight into how you can find properties at less than market value.\nThis book also teaches you about how can you calculate number on interested property and manage tenants efficiently",
+        "detailed": ""
+      },
+      "start_date": "2024-01-15",
+      "end_date": "2024-02-01",
+      "highlights": [
         {
-            "id": "dc07be4f-cfad-4469-83b9-c59407cfb170",
-            "title": "Traction: Get a Grip on Your Business",
-            "description": "Do you have a grip on your business, or does your business have a grip on you. All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do. In Traction, you'll learn the secrets of strengthening the six key components of your business. You'll discover simple yet powerful ways to run your company that will give you and your leadership team more focus, more growth, and more enjoyment. Successful companies are applying Traction every day to run profitable, frustration-free businesses—and you can too.",
-            "author": "Gino Wickman",
-            "image_url": "https://m.media-amazon.com/images/I/81oQ-C24hxL._SL1500_.jpg",
-            "amazon_product_url": "https://www.amazon.com/gp/product/1936661837/ref=ox_sc_saved_title_3?smid=ATVPDKIKX0DER&psc=1",
-            "summary": {
-                "1L": "good one",
-                "3L": "good but can be better",
-                "detailed": "Do you have a grip on your business, or does your business have a grip on you. All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do. In Traction, you'll learn the secrets of strengthening the six key components of your business. You'll discover simple yet powerful ways to run your company that will give you and your leadership team more focus, more growth, and more enjoyment. Successful companies are applying Traction every day to run profitable, frustration-free businesses—and you can too."
-            },
-            "start_date":"2023-12-10",
-            "end_date":"2023-12-15",
-            "highlights": [
-                {
-                    "pageNumber": "100",
-                    "text": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
-                },
-                {
-                    "pageNumber": "10",
-                    "text": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
-                },
-                {
-                    "pageNumber": "1",
-                    "text": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
-                }
-            ]
+          "pageNumber": "26",
+          "pageText": "Four wealth generators: "
         },
         {
-            "id": "66438a44-5d62-4e17-9c21-00592dfa6322",
-            "title": "The 10X Rule: The Only Difference Between Success and Failure",
-            "description": "While most people operate with only three degrees of action-no action, retreat, or normal action-if you're after big goals, you don't want to settle for the ordinary. To reach the next level, you must understand the coveted 4th degree of action. This 4th degree, also known as the 10 X Rule, is that level of action that guarantees companies and individuals realize their goals and dreams. The 10 X Rule unveils the principle of "Massive Action," allowing you to blast through business clichŽs and risk-aversion while taking concrete steps to reach your dreams. It also demonstrates why people get stuck in the first three actions and how to move into making the 10X Rule a discipline. Find out exactly where to start, what to do, and how to follow up each action you take with more action to achieve Massive Action results.",
-            "author": "Grant Cardone",
-            "image_url": "https://m.media-amazon.com/images/I/71hjq42hvGL._SL1500_.jpg",
-            "amazon_product_url": "https://www.amazon.com/gp/product/0470627603/ref=ewc_pr_img_1?smid=ATVPDKIKX0DER&psc=1",
-            "summary": {
-                "1L": "good one",
-                "3L": "good but can be better",
-                "detailed": "Do you have a grip on your business, or does your business have a grip on you. All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do. In Traction, you'll learn the secrets of strengthening the six key components of your business. You'll discover simple yet powerful ways to run your company that will give you and your leadership team more focus, more growth, and more enjoyment. Successful companies are applying Traction every day to run profitable, frustration-free businesses—and you can too."
-            },
-            "start_date":"2024-1-10",
-            "end_date":"2024-1-15",
-            "highlights": [
-                {
-                    "pageNumber": "150",
-                    "text": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
-                },
-                {
-                    "pageNumber": "160",
-                    "text": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
-                },
-                {
-                    "pageNumber": "190",
-                    "text": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
-                }
-            ]
+          "pageNumber": "30",
+          "pageText": "Amortization tool:"
+        },
+        {
+          "pageNumber": "53",
+          "pageText": "25 Real estate books"
+        },
+        {
+          "pageNumber": "75",
+          "pageText": "Property cash flow calculations"
+        },
+        {
+          "pageNumber": "88",
+          "pageText": "Real estate Team:"
+        },
+        {
+          "pageNumber": "102",
+          "pageText": "Choosing contractors and handymen"
+        },
+        {
+          "pageNumber": "114",
+          "pageText": "Calculating expenses: "
+        },
+        {
+          "pageNumber": "169",
+          "pageText": "Crime analysis tool near property"
+        },
+        {
+          "pageNumber": "170",
+          "pageText": "Unemployment data near property"
+        },
+        {
+          "pageNumber": "213",
+          "pageText": "16 Tips for offer"
+        },
+        {
+          "pageNumber": "220",
+          "pageText": "Negotiable Items: "
+        },
+        {
+          "pageNumber": "223",
+          "pageText": "Negotiation tips: "
+        },
+        {
+          "pageNumber": "258",
+          "pageText": "Loan approval steps: "
+        },
+        {
+          "pageNumber": "266",
+          "pageText": "Due dilligence"
+        },
+        {
+          "pageNumber": "282",
+          "pageText": "Helpful forms required"
+        },
+        {
+          "pageNumber": "294",
+          "pageText": "Interview Questions for property managers"
+        },
+        {
+          "pageNumber": "302",
+          "pageText": "Fair housing law: Note on discrimination"
+        },
+        {
+          "pageNumber": "303",
+          "pageText": "Application process:"
+        },
+        {
+          "pageNumber": "333",
+          "pageText": "1031 Exchange: "
         }
-    ]
+      ]
+    },
+    {
+      "id": "e93f1927-2323-4ddd-92f6-bbddd9038d55",
+      "title": "Traction: Get a Grip on Your Business",
+      "description": "Do you have a grip on your business, or does your business have a grip on you. All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do. In Traction, you'll learn the secrets of strengthening the six key components of your business. You'll discover simple yet powerful ways to run your company that will give you and your leadership team more focus, more growth, and more enjoyment. Successful companies are applying Traction every day to run profitable, frustration-free businesses—and you can too.",
+      "start_date": "2024-01-01",
+      "end_date": "2024-01-15",
+      "image_url": "https://m.media-amazon.com/images/I/81oQ-C24hxL._SL1500_.jpg",
+      "amazon_product_url": "https://www.amazon.com/gp/product/1936661837/ref=ox_sc_saved_title_3?smid=ATVPDKIKX0DER&psc=1",
+      "summary": {
+        "oneLiner": "good one",
+        "threeLiner": "good but can be better",
+        "detailed": "Do you have a grip on your business, or does your business have a grip on you. All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do. In Traction, you'll learn the secrets of strengthening the six key components of your business. You'll discover simple yet powerful ways to run your company that will give you and your leadership team more focus, more growth, and more enjoyment. Successful companies are applying Traction every day to run profitable, frustration-free businesses—and you can too."
+      },
+      "highlights": [
+        {
+          "pageNumber": "10",
+          "pageText": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
+        },
+        {
+          "pageNumber": "100",
+          "pageText": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
+        },
+        {
+          "pageNumber": "112",
+          "pageText": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
+        }
+      ]
+    },
+    {
+      "id": "eaf6e47c-0900-4876-b942-f01d8570890f",
+      "title": "The 10X Rule: The Only Difference Between Success and Failure",
+      "description": "While most people operate with only three degrees of action-no action, retreat, or normal action-if you're after big goals, you don't want to settle for the ordinary. To reach the next level, you must understand the coveted 4th degree of action.\nThis 4th degree, also known as the 10 X Rule, is that level of action that guarantees companies and individuals realize their goals and dreams. The 10 X Rule unveils the principle of \"Massive Action,\" allowing you to blast through business clichŽs and risk-aversion while taking concrete steps to reach your dreams.\nIt also demonstrates why people get stuck in the first three actions and how to move into making the 10X Rule a discipline. Find out exactly where to start, what to do, and how to follow up each action you take with more action to achieve Massive Action results.",
+      "start_date": "2024-01-10",
+      "end_date": "2024-01-18",
+      "image_url": "https://m.media-amazon.com/images/I/71hjq42hvGL._SL1500_.jpg",
+      "amazon_product_url": "https://www.amazon.com/gp/product/0470627603/ref=ewc_pr_img_1?smid=ATVPDKIKX0DER&psc=1",
+      "summary": {
+        "oneLiner": "good one",
+        "threeLiner": "good but can be better.\ngood but can be better.\ngood but can be better.",
+        "detailed": "Achieve \"Massive Action\" results and accomplish your business dreams!\nWhile most people operate with only three degrees of action-no action, retreat, or normal action-if you're after big goals, you don't want to settle for the ordinary. To reach the next level, you must understand the coveted 4th degree of action. This 4th degree, also known as the 10 X Rule, is that level of action that guarantees companies and individuals realize their goals and dreams.\n\nThe 10 X Rule unveils the principle of \"Massive Action,\" allowing you to blast through business clichŽs and risk-aversion while taking concrete steps to reach your dreams. It also demonstrates why people get stuck in the first three actions and how to move into making the 10X Rule a discipline. Find out exactly where to start, what to do, and how to follow up each action you take with more action to achieve Massive Action results.\n\nLearn the \"Estimation of Effort\" calculation to ensure you exceed your targets\nMake the Fourth Degree a way of life and defy mediocrity\nDiscover the time management myth\nGet the exact reasons why people fail and others succeed\nKnow the exact formula to solve problems\nExtreme success is by definition outside the realm of normal action. Instead of behaving like everybody else and settling for average results, take Massive Action with The 10 X Rule, remove luck and chance from your business equation, and lock in massive success."
+      },
+      "highlights": [
+        {
+          "pageNumber": "1",
+          "pageText": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
+        },
+        {
+          "pageNumber": "3",
+          "pageText": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
+        },
+        {
+          "pageNumber": "5",
+          "pageText": "All entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do.\nAll entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do.\n\nAll entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do.\n\nAll entrepreneurs and business leaders face similar frustrations—personnel conflict, profit woes, and inadequate growth. Decisions never seem to get made, or, once made, fail to be properly implemented. But there is a solution. It's not complicated or theoretical.The Entrepreneurial Operating System® is a practical method for achieving the business success you have always envisioned. More than 80,000 companies have discovered what EOS can do."
+        }
+      ]
+    }
+  ]
 }
