@@ -16,18 +16,19 @@ function App() {
 
   return (
     <BrowserRouter>
-      {userData.currentUserinfo ? (
-        <Routes>
-          <Route path="/" element={<AppLayout />}>
-            <Route path="/" element={<Home />} />
-            <Route path="/books" element={<Books />} />
-            <Route path="/books/create" element={<BookForm />} />
-            <Route path="/books/:bookId" element={<BookDetails />} />
-          </Route>
-        </Routes>
-      ) : (
-        <Login />
-      )}
+      <Routes>
+        <Route
+          path="/"
+          element={userData?.currentUserinfo?.name ? <AppLayout /> : <Login />}
+        >
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/books" element={<Books />} />
+          <Route path="/books/create" element={<BookForm />} />
+          <Route path="/books/:bookId" element={<BookDetails />} />
+          <Route path="/*" />
+        </Route>
+      </Routes>
     </BrowserRouter>
   );
 }

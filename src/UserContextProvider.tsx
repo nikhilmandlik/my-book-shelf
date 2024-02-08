@@ -16,7 +16,7 @@ interface Userinfo {
   nbf: number;
   picture: string;
   sub: string;
-  access_token: string;
+  accessToken: string;
 }
 
 const userContext = createContext({

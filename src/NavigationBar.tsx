@@ -16,7 +16,7 @@ function NavigationBar() {
         expand="sm"
         className="rounded-3 px-3"
       >
-        <Row className="overflow-auto d-flex flex-nowrap justify-content-between flex-grow-1">
+        <Row className="lh-lg overflow-auto d-flex flex-nowrap justify-content-between flex-grow-1">
           <Col xs={10}>
             <Navbar.Brand as={Link} to="/" className="flex-1 text-wrap">
               {currentUserinfo.name}'s Bookshelf
@@ -28,7 +28,7 @@ function NavigationBar() {
         </Row>
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <Nav.Link as={Link} to="/">
+            <Nav.Link as={Link} to="/home">
               <Button className="col-12">Home</Button>
             </Nav.Link>
             <Nav.Link as={Link} to="/books">
