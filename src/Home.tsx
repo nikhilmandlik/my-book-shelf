@@ -3,7 +3,6 @@ import { Userinfo, userContext } from './UserContextProvider';
 import { Container } from 'react-bootstrap';
 
 function Home() {
-  // todo: move currentUserinfo to navbar
   const { currentUserinfo }: { currentUserinfo: Userinfo } =
     useContext(userContext);
 

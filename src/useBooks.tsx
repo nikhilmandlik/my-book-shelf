@@ -46,7 +46,7 @@ function filterBookShelfFile(data) {
 //     const value = await fetch(`https://www.googleapis.com/drive/v3/files/${bookFile.id}`, {
 //         method: 'DELETE',
 //         headers: {
-//             Authorization: `Bearer ${currentUserinfo.access_token}`,
+//             Authorization: `Bearer ${currentUserinfo.accessToken}`,
 //         },
 //     }).then(res => res.json());
 
@@ -76,7 +76,7 @@ async function createfile(currentUserinfo: Userinfo) {
     {
       method: 'POST',
       headers: {
-        Authorization: `Bearer ${currentUserinfo.access_token}`,
+        Authorization: `Bearer ${currentUserinfo.accessToken}`,
         ContentType: 'multipart/form-data',
       },
       body: form,
@@ -100,7 +100,7 @@ function useBooks() {
       let bookFile;
       try {
         bookFile = await fetch(
-          `https://www.googleapis.com/drive/v3/files?alt=json&access_token=${currentUserinfo.access_token}`
+          `https://www.googleapis.com/drive/v3/files?alt=json&access_token=${currentUserinfo.accessToken}`
         )
           .then((res) => res.json())
           .then(filterBookShelfFile);
@@ -122,7 +122,7 @@ function useBooks() {
             `https://www.googleapis.com/drive/v3/files/${bookFile.id}?alt=media`,
             {
               headers: {
-                Authorization: `Bearer ${currentUserinfo.access_token}`,
+                Authorization: `Bearer ${currentUserinfo.accessToken}`,
               },
             }
           ).then((res) => res.json());
@@ -138,7 +138,7 @@ function useBooks() {
 
   return {
     fileId,
-    accessToken: currentUserinfo.access_token,
+    accessToken: currentUserinfo.accessToken,
     books,
     loading,
     error,
